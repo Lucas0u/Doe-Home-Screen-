@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, Text, TextInput, TouchableOpacity, StyleSheet, View, Image } from 'react-native';
 import ScreenWrapper from '../components/ScreenWrapper';
-import { MaterialIcons } from '@expo/vector-icons';
+import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
 
 export default function LoginScreen({ navigation }) {
   return (
@@ -21,7 +21,7 @@ export default function LoginScreen({ navigation }) {
 
 
           <View style={styles.inputWrapper}>
-            <MaterialIcons name="email" style={styles.icon} />
+            <MaterialCommunityIcons name="email-outline" style={styles.icon} />
             <TextInput
               style={styles.input}
               placeholder="Email"
@@ -31,7 +31,8 @@ export default function LoginScreen({ navigation }) {
             />
           </View>
           <View style={styles.inputWrapper}>
-            <MaterialIcons name="lock" style={styles.icon} />
+            <MaterialIcons name="lock-outline" style={styles.icon} />
+
             <TextInput
               style={styles.input}
               placeholder="Senha"
@@ -44,7 +45,7 @@ export default function LoginScreen({ navigation }) {
 
           <View style={styles.forgotPasswordContainer}>
             <TouchableOpacity>
-              <Text style={styles.forgotPasswordText}>Esqueci a senha</Text>
+              <Text style={styles.forgotPasswordText}>Esqueceu a senha?</Text>
             </TouchableOpacity>
           </View>
 
@@ -114,7 +115,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     marginBottom: 20,
     width: 450,
-    height: 60,
+    height: 70,
     paddingHorizontal: 10,
   },
 
@@ -159,7 +160,7 @@ const styles = StyleSheet.create({
 
   backtext: {
     padding: 20,
-    marginTop: 20,
+    marginTop: 10,
     alignItems: 'center',
 
     fontSize: 16,
