@@ -1,7 +1,5 @@
-[Welcome Screen](https://github.com/user-attachments/assets/36ed2a01-e577-4f7a-bc3e-ca8152b502c9)
+#Welcome Screen
+![Welcome-Screen](https://github.com/user-attachments/assets/69095161-6ac4-4808-beb0-bcc6586f8d6c)
 
-![Welcome Screen](https://github.com/user-attachments/assets/36ed2a01-e577-4f7a-bc3e-ca8152b502c9)
-
-[Login Screen](https://github.com/user-attachments/assets/f1e86a80-e6a3-4b73-8718-6f07f8b1f686)
-
-![Login Screen](https://github.com/user-attachments/assets/f1e86a80-e6a3-4b73-8718-6f07f8b1f686)
+#Login Screen
+![Login-Screen](https://github.com/user-attachments/assets/e0651a6d-1ac4-44bb-9f02-6abd185c6272)
